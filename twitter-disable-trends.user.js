@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        Twitter Disable Trends
 // @namespace   https://github.com/taiyoslime
-// @version     0.2.0
+// @version     0.2.1
 // @description Twitterのトレンド表示を消す
 // @author      taiyoslime
 // @match       https://twitter.com/*
 // @grant       none
 // ==/UserScript==
 
-(function () {
+(() => {
     "use strict";
 
     const observer = new MutationObserver((_) => {
