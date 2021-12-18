@@ -1,1 +1,4 @@
 # userscripts
+
+## License
+[MIT](LICENSE)
