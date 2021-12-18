@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Google English Search Button
 // @namespace   https://github.com/taiyoslime
-// @version     0.1.0
+// @version     0.2.0
 // @description Google 検索で英語のページを容易に検索できるようにするためのbuttonを作成する (inspired by https://github.com/hideo54/userscripts/blob/master/english-search-button.user.js)
 // @author      taiyoslime
 // @match       https://www.google.com/*
@@ -24,11 +24,17 @@
     }
     button.innerText = buttonText;
     button.href = url;
+    let textColor = "";
+    if (document.querySelector("meta[name='color-scheme']")?.content === "dark") {
+        textColor = "#969ba1";
+    } else {
+        textColor = "#5f6368";
+    }
     button.style = `
         display: inline-block;
         padding: 16px 12px 12px 10px;
-        color: #5f6368;
+        color: ${textColor};
         text-decoration: none;
     `;
-    document.querySelector("#hdtb-msb > div:last-child").prepend(button)
+    document.querySelector("#hdtb-msb > div:last-child").prepend(button);
 })();
