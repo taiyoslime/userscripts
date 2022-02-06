@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Twitter Disable Trends
 // @namespace   https://github.com/taiyoslime
-// @version     0.2.1
+// @version     0.3.0
 // @description Twitterのトレンド表示を消す
 // @author      taiyoslime
 // @match       https://twitter.com/*
@@ -21,7 +21,7 @@
             element = element || document.querySelector(_selector);
         }
         if (!element) return;
-        element = [...Array(4)].reduce((e, _) => e.parentNode, element);
+        element = [...Array(3)].reduce((e, _) => e.parentNode, element);
         element.remove();
     });
 
