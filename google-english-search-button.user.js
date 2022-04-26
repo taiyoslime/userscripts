@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name        Google English Search Button
 // @namespace   https://github.com/taiyoslime
-// @version     0.2.0
+// @version     0.2.1
 // @description Google 検索で英語のページを容易に検索できるようにするためのbuttonを作成する (inspired by https://github.com/hideo54/userscripts/blob/master/english-search-button.user.js)
 // @author      taiyoslime
 // @match       https://www.google.com/*
 // @match       https://www.google.co.jp/*
 // @grant       none
+// @updateURL   https://github.com/taiyoslime/userscripts/raw/main/google-english-search-button.user.js
+// @downloadURL	https://github.com/taiyoslime/userscripts/raw/main/google-english-search-button.user.js
 // ==/UserScript==
 
 (() => {

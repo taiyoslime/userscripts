@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name        Twitter Disable Trends
 // @namespace   https://github.com/taiyoslime
-// @version     0.3.0
+// @version     0.3.1
 // @description Twitterのトレンド表示を消す
 // @author      taiyoslime
 // @match       https://twitter.com/*
 // @grant       none
+// @updateURL   https://github.com/taiyoslime/userscripts/raw/main/twitter-disable-trends.user.js
+// @downloadURL	https://github.com/taiyoslime/userscripts/raw/main/twitter-disable-trends.user.js
 // ==/UserScript==
 
 (() => {

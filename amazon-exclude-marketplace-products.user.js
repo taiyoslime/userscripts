@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name        Amazon Exclude Marketplace Products
 // @namespace   https://github.com/taiyoslime
-// @version     0.1.0
+// @version     0.1.1
 // @description Amazonの商品検索でマーケットプレイス商品を除外する
 // @author      taiyoslime
 // @match       https://www.amazon.co.jp/s*
 // @grant       none
+// @updateURL   https://github.com/taiyoslime/userscripts/raw/main/amazon-exclude-marketplace-products.user.js
+// @downloadURL	https://github.com/taiyoslime/userscripts/raw/main/amazon-exclude-marketplace-products.user.js
 // ==/UserScript==
 
 (() => {
